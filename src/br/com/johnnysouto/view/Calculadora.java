@@ -16,6 +16,8 @@ public class Calculadora {
 		
 		int somar = somar(a, b);
 		int subtrair = subtrair(a, b);
+		int dividir = dividir(a, b);
+		int multiplicar = multiplicar(a, b);
 
 	}
 	
