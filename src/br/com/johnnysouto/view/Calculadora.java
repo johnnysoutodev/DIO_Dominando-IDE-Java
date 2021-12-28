@@ -7,6 +7,15 @@ public class Calculadora {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
+		
+		int a, b;
+		System.out.println("Digite o primeiro valor: ");
+		a = scan.nextInt();
+		System.out.println("Digite o segundo valor: ");
+		b = scan.nextInt();
+		
+		int somar = somar(a, b);
+		int subtrair = subtrair(a, b);
 
 	}
 	
